@@ -50,3 +50,25 @@ console.log(Boolean(k), k);
 console.log(Boolean(l), l);
 console.log(Boolean(m), m);
 console.log(Boolean(n), n);
+
+/*
+premitive - store only single value
+
+string
+number
+bigint
+boolean
+undefined
+null
+symbol
+
+
+Non premitive - store multiple complex value;
+//It is important to remember that any data type that is not a primitive data type, is of Object type in javascript
+
+
+object
+hoisting
+
+
+*/

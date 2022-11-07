@@ -3,7 +3,7 @@
 let [x, y] = ["Maryxxyy", "Armyxxyy"];
 
 function isAnagram(x, y) {
-  var a = x.toLowerCase();
+  var a = x.toLowerCase(); //this is compulsory as something related ASCII code.
   var b = y.toLowerCase();
 
   a = a.split("").sort().join("");

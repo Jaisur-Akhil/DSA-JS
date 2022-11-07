@@ -7,6 +7,16 @@ console.log(mul(4)(3)(4)); // output : 48
 
 */
 
+
+
+
+
+
+
+
+
+
+
 function mult(x) {
   return function (y) {
     return function (z) {

@@ -6,3 +6,4 @@ https://arc.dev/developer-blog/javascript-interview-questions/#:~:text=Basic%20J
 this.
 coercions
 array functionality
+prime number fight

@@ -44,7 +44,7 @@ for (let i = 1; i < a.length; i++) {
     // console.log(maxA);
   }
 }
-console.log(maxA);
+// console.log(maxA);
 
 let minA = a[0];
 for (let i = 1; i < a.length; i++) {
@@ -52,4 +52,12 @@ for (let i = 1; i < a.length; i++) {
     minA = a[i];
   }
 }
-console.log(minA);
+// console.log(minA);
+
+//new Array
+let nArray = [4, 5, 6, 7];
+// nArray.pop(); // pops , removes last element from array
+// nArray.push(8); //push , add element at last position
+// nArray.shift(); // shift, removes 1st element from array
+nArray.unshift(2); //unshift , add elemet at 1st position in array
+console.log(nArray);

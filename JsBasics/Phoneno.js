@@ -1,6 +1,6 @@
 /** @format */
- 
- /*
+
+/*
 let a = "#+91";
 let array1 = [9, 9, 2, 3, 4, 1, 5, 7, 9, 3, 4];
 let strng = "";
@@ -23,6 +23,4 @@ let result = a + " " + strng;
 console.log(result);
 */
 
-
-
-
+// #+91 (923) - (415)- (7934)

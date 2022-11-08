@@ -51,3 +51,5 @@ function check2() {
 // check();
 // check2();
 //var x has been defined and initialized inside check() after it is logged. Hoisting works only for variable declaration and not for initialization, so it returns undefined. In check(), y has been initialized to 10. Since var is not used, the variable has its scope until it encounters a variable by the given name or the global object. So when check2() is called, it logs 10 as the output.
+
+

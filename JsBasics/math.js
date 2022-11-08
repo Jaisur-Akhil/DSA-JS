@@ -7,16 +7,6 @@ console.log(mul(4)(3)(4)); // output : 48
 
 */
 
-
-
-
-
-
-
-
-
-
-
 function mult(x) {
   return function (y) {
     return function (z) {
@@ -76,4 +66,28 @@ let fun = function (x) {
   };
 };
 
-console.log(fun(3)(5));
+// console.log(fun(3)(5));
+
+//multi - a*b/c
+
+function multiply(a) {
+  return function (b) {
+    return function (c) {
+      return (a * b) / c;
+    };
+  };
+}
+//5.333333333333333
+const res = multiply(6)(8)(9);
+// console.log(res);
+
+// palindrome("racecar") === true;
+// palindrome("table") === false;
+
+const palindrome = (str) => {
+  str = str.toLowerCase();
+  return str === str.split("").reverse().join("");
+};
+// console.log(palindrome("racecar"));
+
+

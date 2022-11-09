@@ -1,0 +1,10 @@
+How can this be empty;
+I am trying
+but this shall to pass and would resolve the thing
+
+r - open , read
+r+ - read write
+w - write (file created when does not exist)
+w+ - read write(file created when does not exist)
+a - append(file created when does not exist)
+a+ - append + read(file created when does not exist)

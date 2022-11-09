@@ -228,6 +228,4 @@ let xtemp = [...x1, ...x2];
 let xRemDup = [...new Set(xtemp)];
 console.log(xRemDup);
 
-
-
-from 25 / 26
+// from 25 / 26

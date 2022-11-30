@@ -60,4 +60,13 @@ let nArray = [4, 5, 6, 7];
 // nArray.push(8); //push , add element at last position
 // nArray.shift(); // shift, removes 1st element from array
 nArray.unshift(2); //unshift , add elemet at 1st position in array
-console.log(nArray);
+// console.log(nArray);
+
+// Empty string ------------------
+let xarr = [1, 2, 3, 4, 5, 6];
+console.log(xarr);
+// xarr = [];
+xarr.length = 0;
+console.log(xarr);
+
+

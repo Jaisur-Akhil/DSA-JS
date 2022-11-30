@@ -90,4 +90,4 @@ const palindrome = (str) => {
 };
 // console.log(palindrome("racecar"));
 
-
+console.log(0.1 + 0.2);
